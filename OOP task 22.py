@@ -50,11 +50,3 @@ s2.display()
 s3 = Rectangle("blue", True, 10, 5)
 s3.display()
 
-#aiowhdfawhd
-#aiowhdfawhd
-#aiowhdfawhd
-#aiowhdfawhd
-#aiowhdfawhd
-#aiowhdfawhd
-#aiowhdfawhd
-#aiowhdfawhd
