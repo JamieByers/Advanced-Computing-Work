@@ -5,7 +5,7 @@
     $password = "";
     $database = "phpDatabase";
 
-    $conn = mysqli_connect($server, $username, $password, $database);
+    $conn = mysqli_connect($server, $username, $password, $database);   
 
 	if ($conn == false) {
 		die("conn failed");
