@@ -10,5 +10,5 @@
         echo 'i dont know that animal';
     }
 
-    echo'<a href="session_destroy.php"> End session </a>';
+    echo'Click to <a href="session_destroy.php"> End session </a>';
 ?>

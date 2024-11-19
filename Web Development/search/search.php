@@ -23,9 +23,12 @@
         echo"number of results: $rows";
 
         echo"<table border=1> <tr> <th>Name</th> <th>Birthday</th> </tr>";
-        
+
         while ($row = mysqli_fetch_array($result)) {
-            echo"<tr><td>" . $row['name'] . "</td> <td> " . $row['birthday'] . "</td></tr>";
+            $birthday = $row["birthday"];
+            $d = DateTime::createFromFormat("y/m/d");
+            
+            echo"<tr><td>" . $row['name'] . "</td> <td> " . $birthday . "</td></tr>";
         }
         
         echo "</table>";
